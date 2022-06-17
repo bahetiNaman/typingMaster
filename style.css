@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: auto;
+    background-color:lightblue
+}
+html {
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+}
+main {
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    align-items: flex-end;
+}
+.text {
+    align-items: center;
+}
+.scoreBox, .timeLeftBox {
+    font-size: x-large;
+    font-weight: bold;
+}
+.start {
+    border-radius: 0.5rem;
+    background-color:darkgreen;
+    color: white;
+    width: 10%;
+    align-self: flex-end;
+    font-size: xx-large;
+    height: 10%;
+}
+.text {
+    height: 70%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
